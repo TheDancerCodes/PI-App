@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bgz">
+              
+  
+    <ImageButton
+        android:id="@+id/imageButtonBefore"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/before_int" />
+    <ImageButton
+        android:id="@+id/imageButtonDuring"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/during_int" />
+    <ImageButton
+        android:id="@+id/imageButtonAfter"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/after_int" />
+       
+</LinearLayout>

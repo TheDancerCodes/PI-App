@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bgz">
+              
+  
+    <ImageButton
+        android:id="@+id/imageButtonDressing"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/dressing" />
+    <ImageButton
+        android:id="@+id/imageButtonConversation"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/conversation" />
+    
+    <ImageButton
+        android:id="@+id/imageButtonDatingTips"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/datingtips" />
+    
+</LinearLayout>
+
+
+<!--  ImageButton
+        android:id="@+id/imageButtonDatingManners"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/manners" />-->

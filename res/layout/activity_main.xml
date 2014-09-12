@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              
+          
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/bg"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            />
+        
+         <ScrollView android:layout_height="50dp"
+        android:layout_width="fill_parent" android:layout_weight="1"
+        android:background="#ff0000">
+
+    </ScrollView>
+         <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/biz" />
+<ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+       android:layout_height="45dp"
+        android:background="@drawable/body" />
+<ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+       android:layout_height="45dp"
+        android:background="@drawable/skills" />
+<ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+       android:layout_height="45dp"
+        android:background="@drawable/dating" />
+<ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+       android:layout_height="45dp"
+        android:background="@drawable/dining" />
+
+<ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+      android:layout_height="45dp"
+        android:background="@drawable/interview" />
+    
+</LinearLayout>
+
